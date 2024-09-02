@@ -1,6 +1,11 @@
 certbot-dns-godaddy
 ==================
 
+
+## GoDaddy have restricted their domain api access to users with 50+ domains or 10+ with an active domain discount club plan. If you do not fall into this criteria, this will not work. Find out more [here](https://developer.godaddy.com/getstarted#apiaccess).
+
+
+
 [![Version](https://img.shields.io/pypi/v/certbot-dns-godaddy.svg)](https://pypi.python.org/pypi/certbot-dns-godaddy) [![License: Apache](https://img.shields.io/pypi/l/certbot-dns-godaddy.svg)](https://github.com/miigotu/certbot-dns-godaddy/blob/master/LICENSE.txt) [![Docker image size](https://img.shields.io/docker/image-size/miigotu/certbot-dns-godaddy)](https://hub.docker.com/repository/docker/miigotu/certbot-dns-godaddy)
 
 [godaddy](https://www.godaddy.com/) DNS Authenticator plugin for [certbot](https://certbot.eff.org/).
